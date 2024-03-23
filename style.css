@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(41, 52, 52);
+}
+.main{
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+}
+.main .div1{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 50px; */
+    padding: 40px;
+    background-color: white;
+    color: black;
+    width: 90%;
+    border-radius: 10px;
+}
+.main .div1 p{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+}
+.main .main-show-qustion{
+    /* margin: 50px; */
+    padding: 40px;
+    background-color: darkolivegreen;
+    width: 90%;
+    border-radius: 10px;
+    display: block;
+}
+.Text-light{
+    color: black;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 60px;
+}
+#main-option button {
+    width: 100% !important;
+    background-color: #dc3545; /* Bootstrap's danger color */
+    color: white; /* Text color for contrast */
+    margin: 5px !important;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px!important;
+    border: 0px !important;
+    border-radius: 20px !important;
+}
+#main-option button:hover{
+    opacity: 0.9 !important;
+}
+
+
